@@ -141,8 +141,8 @@ struct matrix * generate_sphere(double cx, double cy, double cz,
 void add_torus( struct matrix * edges,
 		double cx, double cy, double cz,
 		double r1, double r2, double step ) {
-	struct matrix * points;
 
+	struct matrix * points;
     points = generate_torus(cx,cy,cz,r1,r2,step);
 
     //just add them in

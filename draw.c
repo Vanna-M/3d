@@ -172,6 +172,7 @@ void add_torus( struct matrix * edges,
   ====================*/
 struct matrix * generate_torus( double cx, double cy, double cz,
 				double r1, double r2, double step ) {
+
 	struct matrix *ret = new_matrix(4,4);
     ident(ret);
 
